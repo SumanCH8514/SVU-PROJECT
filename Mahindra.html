@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      #background-video {
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+        position: fixed;
+        z-index: -1;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+      }
+      #Mahindra {
+        color: gold;
+        font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+          sans-serif;
+        font-weight: bold;
+        text-align: center;
+        -webkit-text-stroke: 2px black;
+      }
+
+      body {
+        background: url(images/two-wheeler/bugati1.jpg) no-repeat;
+        background-size: cover;
+      }
+      #l1 {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        opacity: 0.75;
+      }
+
+      p {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 45px;
+        border: 10px solid slateblue;
+        background-color: white;
+      }
+
+      h2 {
+        color: gold;
+        font-size: xx-large;
+      }
+
+      .Thar {
+        margin-left: 20px;
+        border: 20px solid red;
+      }
+
+      .Scorpio {
+        margin-left: 20px;
+        border: 20px solid red;
+      }
+
+      #s1 {
+        border: 2px solid lightcyan;
+        border-radius: 20px;
+        margin-left: 20px;
+      }
+
+      #fun1 {
+        width: 650px;
+        height: 500px;
+        padding-left: 50px;
+      }
+
+      #fun2 {
+        width: 650px;
+        height: 500px;
+        padding-left: 50px;
+      }
+
+      .RE1 {
+        background-color: black;
+        color: purple;
+      }
+
+      .RE2 {
+        background-color: black;
+        color: purple;
+      }
+
+      .RE3 {
+        background-color: black;
+        color: purple;
+      }
+    </style>
+
+    <center>
+      <h1 id="Mahindra">Welcome to Mahindra Gallery</h1>
+      <img
+        id="l1"
+        src="images/two-wheeler/New_Mahindra_Logo.webp"
+        alt="No pic"
+      />
+    </center>
+    <video
+      id="background-video"
+      autoplay
+      loop
+      muted
+      poster="images/two-wheeler/thar2.webp"
+    >
+      <source src="images/two-wheeler/mahibg.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="Thar">
+      <h2>Thar</h2>
+      <img
+        id="s1"
+        src="images/two-wheeler/thar.jpg_large"
+        alt="logo"
+        height="300px"
+        width="450px"
+      />
+
+      <p class="RE1">
+        <b>Engine type :</b> 1.5L 4-cylinder diesel, 2.0L 4-cylinder,2.2L
+        4-cylinder diesel.
+        <br />
+        <b>Sitting capacity :</b> 4 people.
+        <br />
+        <b>Horse power generate :</b> 130.07bhp@3750rpm.
+        <br />
+        <b>Torque :</b> 300Nm@1600-2800rpm
+      </p>
+    </div>
+
+    <div class="Scorpio">
+      <h2>Scorpio</h2>
+      <img
+        id="s1"
+        src="images/two-wheeler/scorpio.webp"
+        alt="logo"
+        height="300px"
+        width="450px"
+      />
+
+      <p class="RE1">
+        <b>Engine type :</b> 2.0L 4-cylinder,2.2L 4-cylinder diesel.
+        <br />
+        <b>Sitting capacity :</b> 7 people.
+        <br />
+        <b>Horse power generate :</b> 97 KW to 149 KW.
+        <br />
+        <b>Torque :</b> 300 Nm to 400 Nm.
+      </p>
+    </div>
+
+    <div class="X">
+      <h2>X 700</h2>
+      <img
+        id="s1"
+        src="images/two-wheeler/x 700.jpg"
+        alt="logo"
+        height="300px"
+        width="450px"
+      />
+
+      <p class="RE1">
+        <b>Engine type :</b> 2.0L 4-cylinder,2.2L 4-cylinder diesel.
+        <br />
+        <b>Sitting capacity :</b> 7 people.
+        <br />
+        <b>Horse power generate :</b> 97 KW to 149 KW.
+        <br />
+        <b>Torque :</b> 300 Nm to 400 Nm.
+      </p>
+    </div>
+
+    <div>
+      <h2>Entertainment:-</h2>
+      <video id="fun1" controls>
+        <source src="images/two-wheeler/thar10.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <video id="fun2" controls>
+        <source src="images/two-wheeler/thar12.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </body>
+</html>

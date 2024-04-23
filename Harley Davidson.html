@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #background-video{
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+        position: fixed;
+        z-index: -1;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+    }
+    #harleydavidson{
+        color: gold;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        -webkit-text-stroke: 2px black;
+    }
+    
+        body{
+            background: url(images/two-wheeler/RE1.webp) no-repeat;
+            background-size: cover;
+        }
+    
+        #l1{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        opacity: 0.75;          
+        }
+    
+        p{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 45px;
+            border: 10px solid slateblue;
+            
+        }
+
+        h2{
+            color: gold;
+           font-size: xx-large;
+        }
+
+        .R15{
+           margin-left: 20px;
+           border: 20px solid red;
+        }
+
+        .MT15{
+            margin-left: 20px;
+           border: 20px solid red;
+        }       
+
+        #s1{
+            border: 2px solid lightcyan;
+            border-radius: 20px;
+            margin-left: 20px;
+        }
+
+        #fun1{
+            width: 650px;
+             height: 500px;
+             padding-left: 50px;
+        }
+
+        #fun2{
+            width: 650px;
+             height: 500px;
+             padding-left: 50px;
+        }
+
+        .ph{
+            background-color: black;
+            color: purple;
+        }
+
+        .g{
+          background-color: black;
+            color: purple;
+        }
+
+        
+
+</style>
+<body>
+    <center>
+        <h1 id="harleydavidson">Welcome to Harley Davidson Gallery</h1>
+        <img id="l1" src="images/two-wheeler/HD LOGO.jpg" alt="No pic" >
+    </center>
+    <video id="background-video" autoplay loop muted poster="images/two-wheeler/haley davidson street 750.jpeg">
+        <source src="images/two-wheeler/hdb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="R15">
+        <h2>Street 750</h2>
+        <img id="s1" src="images/two-wheeler/haley davidson street 750.jpeg" alt="logo" height="300px" width="450px" />
+
+       <p class="ph">
+<b>Engine type :</b> 749cc Revolution-X V-twin liquid. <br>
+The Harley Davidson Street 750 is propelled by a 749cc Revolution-X V-twin liquid-cooled BS6 engine that puts out the same 60Nm a before.
+<br>
+<b>Horse power generate :</b>  Power is derived from the 749cc, liquid-cooled, Revolution X V-Twin engine capable of developing max power of 47bhp and a top torque of 59Nm at 4000rpm.
+<br>
+<b>speed :</b>  200 km/h.
+        </div>
+        <div>
+            <div class="MT15">
+                <h2>X440</h2>
+                <img id="s1" src="images/two-wheeler/3-HARLEY-DAVIDSON-X440.webp" alt="logo" height="300px" width="450px" />
+              
+               <p class="g">
+                <b>Engine type :</b> 440cc BS6 engine
+                <br>The Harley-Davidson X440 is powered by 440cc BS6 engine which develops a power of 27 bhp and a torque of 38 Nm
+                <br>
+               <b> Horse power generate : </b> The Harley-Davidson X440 is powered by 440cc BS6 engine which develops a power of 27 bhp and a torque of 38 Nm
+                <br>
+                <b>Speed :</b>  140 km/h.</p></div>
+
+                <div>
+                    <h2>Entertainment:-</h2>
+                    <video id="fun1"  controls>
+                    <source src="images/two-wheeler/harley1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video id="fun2"  controls>
+                    <source src="images/two-wheeler/har.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+          
+</body>
+</html>

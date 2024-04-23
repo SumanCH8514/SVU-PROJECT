@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #background-video {
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+      position: fixed;
+      z-index: -1;
+      right: 0;
+      left: 0;
+      top: 0;
+      bottom: 0;
+    }
+    #yamaha {
+      color: gold;
+      font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+        sans-serif;
+      font-weight: bold;
+      text-align: center;
+      -webkit-text-stroke: 2px black;
+    }
+
+    body {
+      background: url(gixxer.jpeg) no-repeat;
+      background-size: cover;
+    }
+
+    #l1 {
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      opacity: 0.75;
+    }
+
+    p {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 45px;
+      border: 10px solid slateblue;
+    }
+
+    h2 {
+      color: gold;
+      font-size: xx-large;
+    }
+
+    .R15 {
+      margin-left: 20px;
+      border: 20px solid red;
+    }
+
+    .MT15 {
+      margin-left: 20px;
+      border: 20px solid red;
+    }
+
+    .fs {
+      margin-left: 20px;
+      border: 20px solid red;
+    }
+
+    .zr {
+      margin-left: 20px;
+      border: 20px solid red;
+    }
+
+    .fz {
+      margin-left: 20px;
+      border: 20px solid red;
+    }
+
+    .fx {
+      margin-left: 20px;
+      border: 20px solid red;
+    }
+
+    #s1 {
+      border: 2px solid lightcyan;
+      border-radius: 20px;
+      margin-left: 20px;
+    }
+
+    #fun1 {
+      width: 650px;
+      height: 500px;
+      padding-left: 50px;
+    }
+
+    #fun2 {
+      width: 650px;
+      height: 500px;
+      padding-left: 50px;
+    }
+
+    .ph {
+      background-color: black;
+      color: purple;
+    }
+
+    .g {
+      background-color: black;
+      color: purple;
+    }
+  </style>
+  <body>
+    <center>
+      <h1 id="yamaha">Welcome to Yamaha Gallery</h1>
+      <img id="l1" src="images/two-wheeler/yamaha logo.jpeg" alt="No pic" />
+    </center>
+    <video
+      id="background-video"
+      autoplay
+      loop
+      muted
+      poster="images/two-wheeler/r151.jpeg"
+    >
+      <source src="images/two-wheeler/yamaha1.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="R15">
+      <h2>R15</h2>
+      <img
+        id="s1"
+        src="images/two-wheeler/r151.jpeg"
+        alt="logo"
+        height="300px"
+        width="450px"
+      />
+
+      <p class="ph">
+        <b>Engine type : </b>The Yamaha R15 V4 is powered by a 155 cc air-cooled
+        engine which produces 18.4 PS @ 10000 rpm of power. It has a fuel tank
+        of 11 L and a claimed mileage of 55.20 kmpl.
+        <br />
+        <b> Horse power generate :</b> The bore and stroke are 58.0 mm × 58.7 mm
+        (2.28 in × 2.31 in). This engine also gets Variable Valve Actuation
+        (VVA) technology and has a claimed 14.2 kW (19.0 hp) of power at 10,000
+        rpm and 14.7 N⋅m (10.8 lbf⋅ft) of torque at 8,500 rpm.
+        <br />
+        <b> Speed :</b> 136 - 150km/hr
+      </p>
+    </div>
+
+    <div class="MT15">
+      <h2>MT-15</h2>
+      <img
+        id="s1"
+        src="images/two-wheeler/mt15.jpeg"
+        alt="logo"
+        height="300px"
+        width="450px"
+      />
+
+      <p class="g">
+        Engine type : _The Yamaha MT 15 V2 is powered by a 155 cc air-cooled
+        engine. <br />
+        Liquid cooled, 4-stroke, SOHC, 4-valve.
+        <br />
+        <b>Horse power generate :</b> 18.4 PS @ 10000 rpm. <br />The Yamaha MT
+        15 V2 is powered by a 155 cc air-cooled engine which produces 18.4 PS @
+        10000 rpm of power
+        <br />
+        <b>Speed :</b> 130km/hr.
+      </p>
+    </div>
+
+    <div class="fs">
+      <h2>Fascino</h2>
+      <img
+        id="s1"
+        src="images/two-wheeler/fascino.jpg"
+        alt="logo"
+        height="300px"
+        width="450px"
+      />
+
+      <p class="g">
+        <b>Engine type :</b> The Yamaha Fascino 125 Fi Hybrid is powered by a
+        125 cc air-cooled engine . Air-cooled, 4-stroke, SOHC, 2-valve.
+        <br />
+        <b> Horse power generate :</b> The Yamaha Fascino 125 Fi Hybrid is
+        powered by a 125 cc air-cooled engine which produces 8.2 PS @ 6500 rpm
+        of power.
+        <br />
+        <b> Speed :</b> 85 km/h.
+      </p>
+    </div>
+
+    <div class="zr">
+      <h2>ZR</h2>
+      <img
+        id="s1"
+        src="images/two-wheeler/zr.jpg"
+        alt="logo"
+        height="300px"
+        width="450px"
+      />
+
+      <p class="g">
+        <b>Engine type : </b> The Yamaha RayXR 125 Fi Hybrid is powered by a 125
+        cc air-cooled engine which produces 8.2 PS @ 6500 rpm power.
+        <br />
+        <b>Horse power generate :</b> 8.2 PS @ 6500 rpm.
+        <br />
+        <b>Speed :</b> 86 - 90 km/h.
+      </p>
+    </div>
+
+    <div class="fz">
+      <h2>FZ-S</h2>
+      <img
+        id="s1"
+        src="images/two-wheeler/fzs.jpeg"
+        alt="logo"
+        height="300px"
+        width="450px"
+      />
+
+      <p class="g">
+        <b>Engine type :</b> Air cooled, 4-stroke, SOHC, 2-valve. <br />
+        The Yamaha FZ-FI V3 is powered by a 149 cc air-cooled engine.
+        <br />
+        <b>Horse power generate : </b> The Yamaha FZ-FI V3 is powered by a 149
+        cc air-cooled engine which produces 12.4 PS @ 7250 rpm of power.
+        <br />
+        <b>Speed :</b> 115 km/h.
+      </p>
+    </div>
+
+    <div class="fx">
+      <h2>FZ-X</h2>
+      <img
+        id="s1"
+        src="images/two-wheeler/fzx.jpeg"
+        alt="logo"
+        height="300px"
+        width="450px"
+      />
+
+      <p class="g">
+        <b>Engine type : </b> The Yamaha FZ-X comes with a Trusted & efficient
+        air-cooled 4-stroke 149cc SOHC, 2-valve, single-cylinder fuel-injected
+        BS6 compatible engine.
+        <br />
+        <b>Horse power generate :</b> The maximum power output of the Yamaha
+        FZ-X engine is 12.4 horsepower at 7,250 RPM, while the peak torque is
+        13.3 Nm at 5,500 RPM.
+        <br />
+        <b>Speed :</b> 112 km/h.
+      </p>
+    </div>
+
+    <div>
+      <h2>Entertainment:-</h2>
+      <video id="fun1" controls>
+        <source src="images/two-wheeler/yr.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <video id="fun2" controls>
+        <source src="images/two-wheeler/Br.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </body>
+</html>

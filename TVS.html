@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #background-video {
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+      position: fixed;
+      z-index: -1;
+      right: 0;
+      left: 0;
+      top: 0;
+      bottom: 0;
+    }
+    #rollsroyce {
+      color: gold;
+      font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+        sans-serif;
+      font-weight: bold;
+      text-align: center;
+      -webkit-text-stroke: 2px black;
+    }
+
+    body {
+      background: url(rr1.jpg) no-repeat;
+      background-size: cover;
+    }
+    #l1 {
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      opacity: 0.75;
+    }
+
+    p {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 45px;
+      border: 10px solid slateblue;
+      background-color: white;
+    }
+
+    h2 {
+      color: gold;
+      font-size: xx-large;
+    }
+
+    .Ntorq {
+      margin-left: 20px;
+      border: 20px solid red;
+    }
+
+    .Apache {
+      margin-left: 20px;
+      border: 20px solid red;
+    }
+
+    .Ronin {
+      margin-left: 20px;
+      border: 20px solid red;
+    }
+
+    #s1 {
+      border: 2px solid lightcyan;
+      border-radius: 20px;
+      margin-left: 20px;
+    }
+
+    #fun1 {
+      width: 650px;
+      height: 500px;
+      padding-left: 50px;
+    }
+
+    #fun2 {
+      width: 650px;
+      height: 500px;
+      padding-left: 50px;
+    }
+
+    .ph {
+      background-color: black;
+      color: purple;
+    }
+
+    .g {
+      background-color: black;
+      color: purple;
+    }
+
+    .s {
+      background-color: black;
+      color: purple;
+    }
+    #TVS {
+      color: gold;
+      font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+        sans-serif;
+      font-weight: bold;
+      text-align: center;
+      -webkit-text-stroke: 2px black;
+    }
+  </style>
+  <body>
+    <center>
+      <h1 id="TVS">Welcome to TVS Gallery</h1>
+      <img id="l1" src="images/two-wheeler/tvs logo.png" alt="No pic" />
+    </center>
+    <video
+      id="background-video"
+      autoplay
+      loop
+      muted
+      poster="images/two-wheeler/N250.png"
+    >
+      <source src="images/two-wheeler/tvsbg.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="Ntorq">
+      <h2>Ntorq</h2>
+      <img
+        id="s1"
+        src="images/two-wheeler/ntroq.jpg"
+        alt="logo"
+        height="300px"
+        width="450px"
+      />
+
+      <p class="s">
+        <b>Engine type :</b> 124.8cc air-cooled engine.
+        <br />
+        <b>Horse power generate :</b> 9.51 PS @ 7000rpm.
+        <br />
+        <b> Speed :</b> 95km/hr.
+      </p>
+    </div>
+
+    <div>
+      <div class="Ronin">
+        <h2>Ronin</h2>
+        <img
+          id="s1"
+          src="images/two-wheeler/TR.webp"
+          alt="logo"
+          height="300px"
+          width="450px"
+        />
+
+        <p class="g">
+          <b>Engine type :</b> Ronin is powered by a 225.9 cc oil-cooled engine
+          which produces 20.4 PS of power.
+          <br />
+          <b>Horse power generate :</b> 20.4 PS @ 7750rpm.
+          <br />
+          <b> Speed :</b> 120km/hr.
+        </p>
+      </div>
+
+      <div class="Apache">
+        <h2>Apache 160</h2>
+
+        <img
+          src="images/two-wheeler/ap.jpg"
+          alt="logo"
+          height="200px"
+          width="200px"
+        />
+        <p class="ph">
+          <b>Engine type :</b> Apache RTR 160 4V is powered by a 159.7 cc
+          air-cooled engine which produces 17.55 PS @ 9250 rpm.
+          <br />
+          <b> Horse power generate :</b> 19.2 PS @ 10000rpm.
+          <br />
+          <b> Speed :</b> 114km/hr.
+        </p>
+      </div>
+    </div>
+
+    <div>
+      <h2>Entertainment:-</h2>
+      <video id="fun1" controls>
+        <source src="images/two-wheeler/tvsf1.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <video id="fun2" controls>
+        <source src="images/two-wheeler/tvfun.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </body>
+</html>

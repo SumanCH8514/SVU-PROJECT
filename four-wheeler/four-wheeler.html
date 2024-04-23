@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #background-video{
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+        position: fixed;
+        z-index: -1;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+    }
+    #car {
+        color: gold;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        -webkit-text-stroke: 2px black;
+    }
+    
+        body{
+            background: url(images/two-wheeler/lambo1.jpg) no-repeat;
+            background-size: cover;
+        }
+
+        .leftcolumn {
+        float: left;
+        width: 33%;
+        margin-left: 4%;
+      }
+
+      .centercolum {
+        float: left;
+        width: 33%;
+        padding-left: 20px;
+      }
+
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        padding-left: 20px;
+      }
+
+      .box {
+        text-align: center;
+        height: 450px;
+        width: 350px;
+        border: 1px solid black;
+        margin-bottom: 25px;
+        box-shadow: 3px 3px 20px rgb(50, 50, 45);
+        
+      }
+
+      .fakeimg {
+      width: 10%;
+        }
+
+      .fakeimg img {
+        box-shadow: 3px 3px 20px rgb(213, 213, 52),
+          -3px -3px 50px rgb(236, 101, 220);
+        margin-left: 35%;
+        height: 350px;
+      }
+
+      #heading h1 {
+        text-align: center;
+        color: rgb(114, 21, 133);
+        text-decoration: underline;
+        text-decoration-style: wavy;
+        text-decoration-color: peru;
+        text-shadow: 7px -5px 7px black;
+      }
+
+    h2{
+  color: mediumspringgreen;
+    }
+
+</style>
+<body>
+    <h1 id="car">Welcome to Our Car World</h1>
+    <video id="background-video" autoplay loop muted poster="images/two-wheeler/lambo1.jpg">
+        <source src="images/two-wheeler/car background.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+     
+    <div id="heading">
+        <h1>Car's Details</h1>
+      </div>
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="box" id="b1">
+            <h2>Lamborghini</h2>
+           <a href="Lamborghini.html">
+            <div class="fakeimg">
+              <img src="images/two-wheeler/lamborghini logo.jpg" style="width: 900%" alt="car logo" /></a>
+            </div>
+          </div>
+          <div class="box" id="b2">
+            <h2>Doodge</h2>
+            <a href="doodge.html">
+            <div class="fakeimg">
+              <img src="images/two-wheeler/dodgelogo.jpg" style="width: 900%" alt="car logo" /></a>
+            </div>
+          </div>
+          <div class="box" id="b3">
+            <h2>Bugatti</h2>
+            <a href="Bugatti.html">
+            <div class="fakeimg">
+              <img src="images/two-wheeler/buggati logo.jpg" style="width: 900%" alt="car logo" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="centercolum">
+          <div class="box" id="b4">
+            <h2>Mahindra</h2>
+            <a href="Mahindra.html">
+            <div class="fakeimg">
+              <img src="images/two-wheeler/New_Mahindra_Logo.webp" style="width: 900%" alt="car logo" /></a>
+            </div>
+          </div>
+          <div class="box" id="b5">
+            <h2>Tata</h2>
+            <a href="Tata.html">
+            <div class="fakeimg">
+              <img src="images/two-wheeler/tatalogo.jpg" style="width: 900%" alt="car logo" /></a>
+            </div>
+          </div>
+          <div class="box" id="b6">
+            <h2>BMW</h2>
+            <a href="BMW.html">
+            <div class="fakeimg">
+              <img src="images/two-wheeler/BMW logo.jpg" style="width: 900%" alt="car logo" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="rightcolumn">
+          <div class="box" id="b7">
+            <h2>Rolls Royce</h2>
+            <a href="Rolls Royce.html">
+            <div class="fakeimg">
+              <img src="images/two-wheeler/rr logo.jpg" style="width: 900%" alt="car logo" /></a>
+            </div>
+          </div>
+          
+          <div class="box" id="b8">
+            <h2>Koenigsegg</h2>
+            <a href="Koenigsegg.html">
+            <div class="fakeimg">
+              <img src="images/two-wheeler/koeningsegglogo.jpg" style="width: 900%" alt="car logo" /></a>
+            </div>
+          </div>
+          <div class="box" id="b9">
+            <h2>Mercedes</h2>
+            <a href="Mercedes.html">
+            <div class="fakeimg">
+              <img src="images/two-wheeler/mercedes logo.jpg" style="width: 900%" alt="car logo" /></a>
+            </div>
+          </div>
+        </div>
+</body>
+</html>
