@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DREAM WHEELS HOMEPAGE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googlepis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
+    <link href="https://fonts.googlepis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  </head> 
+<style>
+  
+    * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+    body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 10px;
+        background-color: skyblue;
+    }
+    .header{
+      padding: 30px;   
+      text-align: center;
+      background-image: url(/images/index/bg.jpg);
+      color:ghostwhite;
+      height: 1200px;
+      width: 1500px;
+      background-repeat: no-repeat;
+      font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    opacity: 1;
+    }
+    #s{
+      color: cyan;
+      font-size: x-large;
+    }
+
+    .nav1{
+ width: auto;
+ height: 50px;
+ color: black;
+ display:flex;
+ justify-content: space-around;
+ background-color: salmon;
+ }
+
+ .nav1 a{
+color:black;
+ text-decoration: none;
+ padding: 2px;
+ margin-left: 10px;
+}
+ .p1{
+ margin-right: 1050px;
+ padding-top: 15px;
+ }
+
+    .navbar{
+            background-color:black;
+            border-radius: 30px;
+        }
+        ol{
+          width: auto;
+          height: 100px;
+        }
+        ol li{
+          width: 150px;
+          height: 50px;
+          background-image: linear-gradient(100deg, rgb(117, 0, 128), rgb(58, 203, 194));
+          float: left;
+          margin-right: 10px;
+          list-style-type: none;
+          text-align: center;
+          padding-top: 15px;
+          font-size: 18px;
+          border-radius: 10px;
+          margin-top: 25px;
+        }
+        ol li a{
+            text-decoration: none;
+            color:rgb(2, 40, 69);
+        }
+        ol li a:hover{
+            color: red;
+        }
+       .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: dodgerblue;
+        min-width: 160px; 
+       }
+       .dropdown-content a{
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+       display: flow-root;
+        text-align: left;
+       }
+       
+       .dropdown:hover .dropdown-content{
+        display: list-item;
+       }
+        .Search{
+            float:right;
+            padding: 12px;
+            margin-top: 25px;
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+        }
+        #sitename{
+          border: 1px solid black;
+          text-align: center;
+          background-color: rgb(206, 140, 46);
+          font-weight: bold;
+          font-size: 200%;
+          color: white;
+          text-shadow: 2px 3px 4px black;
+        }
+        #footer{
+          margin-top: 80vh;
+          border: 1px solid rgb(255, 254, 254);
+          background-color: #717171;
+          padding: 5px;
+          text-align: center;
+          color: black;
+          font-weight: bold;
+          text-decoration: none;
+        }
+        #footer a{
+          text-decoration: none;
+        }
+
+        
+     
+  
+ /*Responsive Layout:- When the screen is les than 800px wide, make the column on top at each after instead at next to each other*/
+ @media screen and (max-width:800px) {
+  .leftcolumn, .rightcolumn{
+    width:100%;
+    padding:0px;
+  }
+  
+ }
+ @media screen and (max-width:400px) {
+  .topnav a{
+    float: none;
+    width: 100px;
+  }
+ }
+ 
+</style>
+<body>
+<nav class="nav1">
+ <div class="p1">
+   <a href="https://google.com"><i class="fa fa-google"></i></a>
+   <a href="https://facebook.com"><i class="fa fa-facebook"></i></a>
+   <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+   <a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
+   <a href="https://youtube.com"><i class="fa fa-youtube"></i></a>
+   <a href="tel:+910000000"><i class="fa fa-phone"></i>+91000000009</a>
+   <a href="https://mail.com"><i class="fa fa-envelope"></i></a>
+ </div>
+</nav>
+<div id="sitename">
+  <p>DREAM WHEELS</p>
+</div>
+
+
+<nav class="navbar">
+<ol>
+   <li class="dropdown"> <a href="#">Home</a>
+   <div class="dropdown-content">
+     <a href="/two-wheeler/index.html">Two Wheeler</a>
+     <a href="/four-wheeler/index.html">Four Wheeler</a>
+   </div>
+   </li>
+   <li><a href="Aboutus.html">About Us</a></li>
+   <li><a href="services.html">Service</a></li>
+   <li><a href="contact.html">Contact Us</a></li>
+   <li><a href="cr.html">Credits</a></li> 
+   <li><a href="Registration.html">Test Drive</a></li>   
+   <div class="Search">
+   <input type="text" placeholder="search here" name="search" class="form-control">
+   <i class="fa fa-search"></i>
+</div>
+</ol>
+</nav>
+
+        <div class="header">
+            <h1>DREAM WHEELS</h1>
+            
+            
+                <p id="s"><u><i>"Discover Your Drive: Explore the World of Automotive Luxury"</i></u></p>           
+                <div class="slideshow-container">
+
+                  <div class="mySlides fade">
+                   
+                    <img src="images/index/bugati1.jpg" style="width:700px" height="400px">
+                    <div class="text">Bugatti</div>
+                  </div>
+                  
+                  <div class="mySlides fade">
+                    
+                    <img src="images/index/bmw1.jpg" style="width:700px" height="400px">
+                    <div class="text">BMW</div>
+                  </div>
+                  
+                  <div class="mySlides fade">
+                    
+                    <img src="images/index/HD.jpg" style="width:700px" height="400px">
+                    <div class="text">Harley-Davidson</div>
+                  </div>
+                  
+                  <div class="mySlides fade">
+                    
+                      <img src="images/index/RE1.webp" style="width:700px" height="400px">
+                      <div class="text">Royal Enfield</div>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                    
+                      <img src="images/index/TR.webp" style="width:700px" height="400px" height="400px">
+                      <div class="text">TVS</div>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                    
+                      <img src="images/index/lambo1.jpg" style="width:700px" height="400px">
+                      <div class="text">Lamborghini</div>
+                    </div>
+                  
+                  </div>
+                  <br>
+                  
+                  <div style="text-align:center">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                  </div>
+                  
+                  <script>
+                  let slideIndex = 0;
+                  showSlides();
+                  
+                  function showSlides() {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    let dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}    
+                    for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " active";
+                    setTimeout(showSlides, 2000); 
+                  }
+                  </script>
+             <SECtion>
+              <div id="footer">
+                &copy <a href="/">a Error Kings Project</a> | All Rights Resarved.
+              </div>
+            </SECtion>
+</body>
+</html>

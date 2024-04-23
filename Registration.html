@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test Drive registration</title>
+<style>
+ body{
+ padding: 200px;
+ background-image: url(/images/two-wheeler/carb.jpg);
+ background-repeat: no-repeat;
+ background-size: 1500px 1000px;
+ padding: 200px;
+ color: rgb(7, 7, 7);
+ font-weight: bold;
+ }
+ #main {
+    border: 1px solid black;
+    background-color: rgba(100, 100, 100, 0.4);
+ }
+ #main h1 {
+    border: 1px solid black;
+    background-color: rgba(179, 224, 226, 0.4);
+ }
+ #tmc{
+    margin-left: 40%;
+    color: white;
+    /* text-align: right; */
+ }
+ button{
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 7px;
+    margin-bottom: 2%
+    
+ }
+ button a{
+    text-decoration: none;
+    font-weight: bold;
+ }
+</style>
+</head>
+<body>
+<div id="main">
+    <h1 align="center">FREE REGISTRATION TEST DRIVE</h1><br>
+<form action="insertSignup.php">
+<table align="center">
+<tr>
+<td><font color="white" size="5"><b>Username:</b></fonT></td>
+<td><input type="text" name="a1" placeholder="enter username"></td>
+</tr>
+<tr>
+<td><font color="white"size="5"><b>Email:</b></font></td>
+<td><input type="email" name="a2" placeholder="enter email"></td>
+</tr>
+<tr>
+<td><font color="white" size="5"><b>Phone :</b></font></td>
+<td><input type="number" name="a3" placeholder="enter Phone" class="form-control" ></td>
+</tr>
+<tr>
+<td><font color="white"size="5"><b>Password :</b></font></td>
+<td><input type="password" name="a4" placeholder="enter password"></td>
+</tr>
+<tr>
+<td><font color="white" size="5"><b>Date of Birth :</b></font></td>
+<td><input type="date" name="a5" placeholder="enter Date of Birth" class="form-control w-50" 
+></td>
+</tr>
+<tr>
+<td><font color="white" size="5"><b>Gender</b></font></td>
+<td><input type="radio" name="a6" value="Male">Male <input type="radio" name="a6" 
+value="Female">Female <input type="radio" name="a6" value="Others"> Others</td>
+</tr>
+<tr>
+<td><font color="white" size="5"><b>Address</b></font></td>
+<td><input type="address" name="a7" placeholder="enter Address" class="form-control" ></td>
+</tr>
+<tr>
+<td><font color="white" size="5"><b>State</b></font></td>
+<td><input type="text" name="a8" placeholder="enter State" class="form-control" ></td>
+</tr>
+<tr>
+<td><font color="white" size="5"><b>City</b></font></td>
+<td><input type="text" name="a9" placeholder="enter City" class="form-control" ></td>
+</tr>
+<tr>
+<td><font color="white" size="5"><b>Pin Code:</b></font></td>
+<td><input type="number" name="a10" placeholder="enter Pin Code" class="form-control w-25" 
+></td>
+</tr>
+<tr>
+<td>
+    <p id="tmc">
+        <input type="checkbox"><b>By creating an account you agree to our <a href="/Term and  Condition.html">Term & Condition</b></a>
+    </p>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<button>
+    <a href="/signup.html">Sign Up</a></button>
+</td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>

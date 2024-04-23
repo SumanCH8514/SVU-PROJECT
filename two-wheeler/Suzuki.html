@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #background-video {
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+      position: fixed;
+      z-index: -1;
+      right: 0;
+      left: 0;
+      top: 0;
+      bottom: 0;
+    }
+    #suzuki {
+      color: gold;
+      font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+        sans-serif;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    body {
+      background: url(/images/two-wheeler/gixxer.jpeg) no-repeat;
+      background-size: cover;
+      -webkit-text-stroke: 2px black;
+    }
+
+    #l1 {
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      opacity: 0.75;
+    }
+
+    p {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 45px;
+      border: 10px solid slateblue;
+      background-color: cornflowerblue;
+    }
+    h2 {
+      color: gold;
+      font-size: xx-large;
+    }
+
+    .sf {
+      margin-left: 20px;
+      border: 20px solid red;
+    }
+
+    .hy {
+      margin-left: 20px;
+      border: 20px solid red;
+    }
+
+    .ac {
+      margin-left: 20px;
+      border: 20px solid red;
+    }
+
+    #s1 {
+      border: 2px solid lightcyan;
+      border-radius: 20px;
+      margin-left: 20px;
+    }
+
+    #fun1 {
+      width: 650px;
+      height: 500px;
+      padding-left: 50px;
+    }
+
+    #fun2 {
+      width: 650px;
+      height: 500px;
+      padding-left: 50px;
+    }
+
+    .ph {
+      background-color: black;
+      color: purple;
+    }
+
+    .g {
+      background-color: black;
+      color: purple;
+    }
+  </style>
+  <body>
+    <center>
+      <h1 id="suzuki">Welcome to Suzuki Gallery</h1>
+      <img id="l1" src="/images/two-wheeler/suzuki logo.jpg" alt="No pic" />
+    </center>
+    <video
+      id="background-video"
+      autoplay
+      loop
+      muted
+      poster="/images/two-wheeler/gixxer.jpeg"
+    >
+      <source src="/images/two-wheeler/suzuki1.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="sf">
+      <h2>Gixxer SF</h2>
+      <img
+        src="/images/two-wheeler/gixxer.jpeg"
+        alt="logo"
+        height="200px"
+        width="200px"
+      />
+      <p class="g">
+        <b>Engine type : </b>The Suzuki Gixxer is powered by a 155 cc air-cooled
+        engine which produces 13.6 PS @ 8000 rpm of power. It has a fuel tank of
+        12 L and a claimed mileage of 45 kmpl.
+        <br />
+        <b>Horse power generate : </b>13.4 bhp. <br />Suzuki Gixxer SF is a
+        sports bike available in 2 variants and 6 colours. The Suzuki Gixxer SF
+        is powered by 155cc BS6 engine which develops a power of 13.4 bhp and a
+        torque of 13.8 Nm.
+        <br />
+        <b>Speed :</b> 127km/hr.
+      </p>
+    </div>
+
+    <div class="hy">
+      <h2>Hayabusa</h2>
+
+      <img
+        src="/images/two-wheeler/hayabusa.jpeg"
+        alt="logo"
+        height="200px"
+        width="200px"
+      />
+      <p class="ph">
+        <b>Engine type :</b> Hayabusa is powered by a 4 cylinder, 1340 cc,
+        4-stroke& 4-cylinder& liquid-cooled& DOHC.
+        <br />
+        <b> Horse power generate :</b> The Suzuki Hayabusa is capable of
+        producing a maximum power output of 197 horsepower at 9,500 rpm.
+        <br />
+        <b> Speed :</b> 299 to 312km/hr.
+      </p>
+    </div>
+
+    <div class="ac">
+      <h2>Access 125</h2>
+      <img
+        src="/images/two-wheeler/access.jpg"
+        alt="logo"
+        height="200px"
+        width="200px"
+      />
+      <p class="g">
+        <b>Engine type : </b> Access 125 have Engine Type 4- Stroke, 1-Cylinder,
+        Air Cooled.
+        <br />
+        <b>Horse power generate :</b> 8.6hp. <br />The Suzuki Access 125's 8.6
+        hp 124cc BS6 engine generates 10 Nm of torque.
+        <br />
+        <b>Speed :</b> 90km/h.r
+      </p>
+    </div>
+
+    <div>
+      <h2>Entertainment:-</h2>
+      <video id="fun1" controls>
+        <source src="/images/two-wheeler/sufun.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <video id="fun2" controls>
+        <source src="/images/two-wheeler/suz.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </body>
+</html>
